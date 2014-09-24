@@ -65,10 +65,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cookie.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cookie.aspx.cs">
+      <DependentUpon>Cookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie.aspx.designer.cs">
+      <DependentUpon>Cookie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
